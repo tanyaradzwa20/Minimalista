@@ -221,6 +221,7 @@ footer > div .icons a {
   color: #999797;
   font-size: 20px;
   margin: 15px;
+  text-decoration: none !important;
 }
 
 footer > div .icons a:hover {
@@ -407,7 +408,7 @@ footer > div .copyright {
   text-decoration: none;
 }
 
-@media (max-width: 575px) and (max-width: 690px){
+@media (max-width: 575px) {
   h1 {
     font-size: 45px;
   }
@@ -461,6 +462,7 @@ footer > div .copyright {
   footer > div .icons a {
     font-size: 15px;
     margin: 6px;
+    text-decoration: none;
   }
   footer > div .address {
     -webkit-box-orient: vertical;
